@@ -363,3 +363,27 @@ footer{
 .testimonial-card h4{
     color:#083A78;
 }
+.thank-you{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#f8f9fb;
+    padding:20px;
+}
+
+.thank-you-content{
+    max-width:700px;
+}
+
+.thank-you h1{
+    color:#083A78;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.thank-you p{
+    margin-bottom:15px;
+    font-size:1.1rem;
+}
