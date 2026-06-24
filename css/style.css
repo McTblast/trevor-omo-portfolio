@@ -387,3 +387,161 @@ footer{
     margin-bottom:15px;
     font-size:1.1rem;
 }
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .hero{
+        height:auto;
+        padding:100px 20px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    section{
+        padding:60px 20px;
+    }
+
+    .about-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .profile-photo{
+        width:220px;
+        height:220px;
+    }
+
+    .about-stats{
+        justify-content:center;
+    }
+
+    .skills-grid,
+    .services-grid,
+    .portfolio-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .btn-secondary{
+        margin-left:0;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+}
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    nav a{
+        margin:0 10px;
+        display:inline-block;
+    }
+
+    .hero{
+        height:auto;
+        padding:80px 20px;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .about-container{
+        flex-direction:column;
+        text-align:center;
+        gap:30px;
+    }
+
+    .about-content{
+        width:100%;
+    }
+
+    .profile-photo{
+        width:220px;
+        height:220px;
+    }
+
+    .about-stats{
+        justify-content:center;
+    }
+
+    .skills-grid,
+    .services-grid,
+    .portfolio-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .btn-secondary{
+        margin-left:0;
+    }
+
+    section{
+        padding:60px 20px;
+    }
+
+    body{
+        overflow-x:hidden;
+    }
+}
+.about-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
