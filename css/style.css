@@ -545,3 +545,17 @@ footer{
     gap:60px;
     flex-wrap:wrap;
 }
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+#about,
+#services,
+#portfolio,
+#contact{
+
+    scroll-margin-top:90px;
+
+}
